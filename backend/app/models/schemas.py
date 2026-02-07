@@ -152,6 +152,7 @@ class Resource(Document):
     current_availability: int = Field(ge=0, description="Currently available capacity")
     capabilities: List[NeedType] = Field(default_factory=list)
     status: str = "active"  # active, inactive, deployed
+    verified: bool = Field(default=True, description="Whether resource is verified for emergency dispatch")
     contact_info: Dict[str, Any] = Field(default_factory=dict)
     estimated_response_time_minutes: int = Field(default=30)
     created_at: datetime = Field(default_factory=datetime.utcnow)
@@ -159,7 +160,7 @@ class Resource(Document):
     
     class Settings:
         name = "resources"
-        indexes = ["resource_id", "resource_type", "status"]
+        indexes = ["resource_id", "resource_type", "status", "verified"]
 
 
 # ===== Resource Matching Models =====

@@ -41,6 +41,7 @@ async def load_sample_resources():
             current_availability=4,
             capabilities=[NeedType.MEDICAL_AID, NeedType.RESCUE],
             status="active",
+            verified=True,
             contact_info={
                 "phone": "+1-555-0101",
                 "radio": "Channel 5"
@@ -65,6 +66,7 @@ async def load_sample_resources():
             current_availability=2,
             capabilities=[NeedType.MEDICAL_AID],
             status="active",
+            verified=True,
             contact_info={
                 "phone": "+1-555-0102",
                 "radio": "Channel 7"
@@ -89,6 +91,7 @@ async def load_sample_resources():
             current_availability=10,
             capabilities=[NeedType.RESCUE, NeedType.EVACUATION, NeedType.MEDICAL_AID],
             status="active",
+            verified=True,
             contact_info={
                 "phone": "+1-555-0201",
                 "radio": "Channel 3"
@@ -113,6 +116,7 @@ async def load_sample_resources():
             current_availability=6,
             capabilities=[NeedType.RESCUE, NeedType.EVACUATION],
             status="active",
+            verified=True,
             contact_info={
                 "phone": "+1-555-0202",
                 "radio": "Channel 4"
@@ -137,6 +141,7 @@ async def load_sample_resources():
             current_availability=200,
             capabilities=[NeedType.FOOD, NeedType.WATER],
             status="active",
+            verified=True,
             contact_info={
                 "phone": "+1-555-0301",
                 "email": "food@redcross.org"
@@ -161,6 +166,7 @@ async def load_sample_resources():
             current_availability=500,
             capabilities=[NeedType.WATER, NeedType.SANITATION],
             status="active",
+            verified=True,
             contact_info={
                 "phone": "+1-555-0302"
             },
@@ -184,6 +190,7 @@ async def load_sample_resources():
             current_availability=150,
             capabilities=[NeedType.SHELTER, NeedType.BLANKETS, NeedType.CLOTHING],
             status="active",
+            verified=True,
             contact_info={
                 "phone": "+1-555-0401",
                 "email": "shelter@community.org"
@@ -208,6 +215,7 @@ async def load_sample_resources():
             current_availability=50,
             capabilities=[NeedType.MEDICAL_AID, NeedType.PSYCHOLOGICAL_SUPPORT],
             status="active",
+            verified=True,
             contact_info={
                 "phone": "+1-555-0501",
                 "email": "mobile@healthclinic.org"
@@ -232,6 +240,7 @@ async def load_sample_resources():
             current_availability=120,
             capabilities=[NeedType.EVACUATION],
             status="active",
+            verified=True,
             contact_info={
                 "phone": "+1-555-0601",
                 "radio": "Channel 9"
@@ -262,6 +271,7 @@ async def load_sample_resources():
                 NeedType.WATER
             ],
             status="active",
+            verified=True,
             contact_info={
                 "phone": "+1-555-0701",
                 "email": "supplies@emergency.org"
