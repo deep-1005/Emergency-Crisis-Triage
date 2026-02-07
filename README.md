@@ -6,7 +6,7 @@ An AI-powered decision support system designed to assist emergency response coor
 
 ## 🎥 Demo Video
 
-Watch the system in action:https://drive.google.com/file/d/1LBoERY_aN0flATyL4UU1rR3OBJt_y44K/view
+Watch the system in action: https://drive.google.com/file/d/1LBoERY_aN0flATyL4UU1rR3OBJt_y44K/view
 
 ### 🎯 Primary Objective
 
