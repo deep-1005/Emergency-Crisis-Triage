@@ -4,6 +4,10 @@
 
 An AI-powered decision support system designed to assist emergency response coordinators and NGO dispatchers operating under extreme time pressure. The system analyzes unstructured crisis messages and provides faster, safer, and more transparent emergency triage and resource allocation.
 
+## 🎥 Demo Video
+
+Watch the system in action: [Demo Video](demo/demo-video.mp4)
+
 ### 🎯 Primary Objective
 
 **Reduce emergency request triage time by at least 40%** while maintaining:
