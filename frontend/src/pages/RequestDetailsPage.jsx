@@ -27,7 +27,12 @@ const RequestDetailsPage = () => {
       queryClient.invalidateQueries(['request', requestId]);
       queryClient.invalidateQueries(['requests']);
       alert('Dispatch confirmed successfully!');
+      navigate('/');
     },
+    onError: (error) => {
+      console.error('Dispatch confirmation error:', error);
+      alert(`Failed to confirm dispatch: ${error.response?.data?.detail || error.message}`);
+    }
   });
 
   const handleConfirm = () => {
